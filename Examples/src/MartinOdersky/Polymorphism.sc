@@ -25,6 +25,7 @@ val list = Cons(1, Cons(2, Cons(3, Nil())))
 nth(2,list)
 nth(4,list)
 def singleton[T] (elem: T) = new Cons[T](elem, new Nil[T])
+
 //full specification with explicit type parameter [Int]
 singleton[Int](1)
 singleton[Boolean](true)
